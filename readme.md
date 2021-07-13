@@ -2,6 +2,8 @@
 
 This project is made for sociality frontend challenge.
 
+![Screenshot](/screenshot.png?raw=true)
+
 # Run the project
 
 git clone https://github.com/erenkulaksiz/jrfrontendproject.git<br/>
