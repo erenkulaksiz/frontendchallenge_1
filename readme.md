@@ -1,11 +1,10 @@
-### Welcome to redux-template.<br/>
+# Welcome
 
-This project comes with SCSS+Redux ready!<br/>
-UPDATED
+This project is made for sociality frontend challenge.
 
-# First startup
+# Run the project
 
-git clone https://github.com/erenkulaksiz/redux-template.git<br/>
-cd redux-template<br/>
+git clone https://github.com/erenkulaksiz/jrfrontendproject.git<br/>
+cd jrfrontendproject<br/>
 npm i<br/>
 npm start<br/>

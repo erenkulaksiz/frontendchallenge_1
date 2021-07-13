@@ -1,9 +1,9 @@
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
- 
+
 const SRC_DIR = __dirname + '/src';
 const DIST_DIR = __dirname + '/dist';
- 
+
 module.exports = {
   entry: [
     SRC_DIR + '/index.html',
@@ -20,7 +20,7 @@ module.exports = {
         exclude: /node_modules/,
         use: {
           loader: 'html-loader',
-          options: {minimize: true}
+          options: { minimize: true }
         }
       },
       {
@@ -44,8 +44,25 @@ module.exports = {
               localIdentName: '[local]___[hash:base64:5]'
             }
           },
-        'sass-loader',
+          'sass-loader',
         ]
+      },
+      {
+        test: /\.(png|jp(e*)g|svg|gif)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: 'images/[hash]-[name].[ext]',
+            },
+          },
+        ],
+      },
+      {
+        test: /\.json$/,
+        use: {
+          loader: 'json-loader'
+        }
       },
     ]
   },
