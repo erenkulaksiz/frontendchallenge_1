@@ -1,6 +1,8 @@
 # Welcome
 
-This project is made for sociality frontend challenge.
+This project is made for sociality frontend challenge.<br/>
+The top screenshot is the "mockup" i recieved.<br/>
+The bottom screenshot is the output of what i made with React.<br/>
 
 ![Design](/design.png?raw=true)
 ![Screenshot](/screenshot.png?raw=true)
