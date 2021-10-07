@@ -9,7 +9,7 @@ The bottom screenshot is the output of what i made with React.<br/>
 
 # Run the project
 
-git clone https://github.com/erenkulaksiz/jrfrontendproject.git<br/>
+git clone https://github.com/erenkulaksiz/frontendchallenge_1.git<br/>
 cd jrfrontendproject<br/>
 npm i<br/>
 npm start<br/>
